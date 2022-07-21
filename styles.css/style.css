@@ -1,0 +1,357 @@
+/* ----------------
+------Header-styles
+---------------------- */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 1024px;
+    display: flex;
+    background-color: black;
+    margin-left: 145px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 25px;
+    padding-top: 40px;
+    padding-left: 100px;
+    padding-right: 70px;
+
+
+}
+
+.marcelo-life {
+    width: 50%;
+    color: whitesmoke;
+
+}
+
+.marcelo-tittle {
+    font-size: 4vw;
+}
+
+.marcelo-pic {
+    width: 50%;
+
+}
+
+/*---------------
+--------- ANIMATION------------ */
+.marcelo-pic img:hover {
+    transform: scale(1.3);
+    z-index: 2;
+}
+
+.marcelo {
+    width: 100%;
+}
+
+.watch {
+    text-decoration: none;
+    border: 0;
+    background-image: linear-gradient(orange, tomato);
+    padding: 20px 40px;
+    border-radius: 5px;
+
+
+}
+
+/*-----------------------
+ First Sectioc design--
+---------------- */
+.all-group {
+    width: 1300px;
+    margin: 0 auto;
+    display: flex;
+
+
+}
+
+.dashboard {
+    width: 267px;
+    height: 250px;
+    background-color: black;
+    display: grid;
+    grid-row-gap: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px;
+    padding-top: 30px;
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+.upcomming {
+    text-decoration: none;
+    border: 0;
+    background-color: whitesmoke;
+    padding: 20px 15px;
+    border-radius: 5px;
+
+}
+
+.group {
+    text-decoration: none;
+    border: 0;
+    background-color: whitesmoke;
+    padding: 20px 50px;
+    border-radius: 5px;
+
+}
+
+.blog {
+    text-decoration: none;
+    border: 0;
+    color: whitesmoke;
+    background-color: red;
+    padding: 20px 70px;
+    border-radius: 5px;
+
+}
+
+/* ---------player-information--------- */
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    margin-top: 42px;
+}
+
+
+.player-info {
+    display: flex;
+}
+
+.player {
+    width: 312px;
+    height: 365px;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.player-info {
+    display: flex;
+
+}
+
+.player-info .time {
+    margin-left: 20px;
+}
+
+/* ----view all---- */
+.view-all {
+    visibility: hidden;
+}
+
+/* -------------Foter-Styles------- */
+.footer-main {
+    margin-top: 35px;
+}
+
+.footer {
+    width: 1456px;
+    height: 350px;
+    background-color: blueviolet;
+    padding-top: 35px;
+}
+
+.footer-head {
+    color: aliceblue;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+hr {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.footer-anchor {
+    text-align: center;
+}
+
+
+.footer-anchor a {
+    text-decoration: none;
+    color: aliceblue;
+    margin-left: 27px;
+}
+
+.footer-icon {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.footer-icon a {
+    font-size: 30px;
+    color: aliceblue;
+    margin-left: 27px;
+}
+
+/* -------------------------
+--------upcoming-match 
+----------------------------- */
+.flag-container {
+    text-align: center;
+}
+
+.upcomming-up {
+    text-decoration: none;
+    border: 0;
+    color: aliceblue;
+    background-color: red;
+    padding: 20px 15px;
+    border-radius: 5px;
+
+}
+
+.group-up {
+    text-decoration: none;
+    border: 0;
+    background-color: whitesmoke;
+    padding: 20px 50px;
+    border-radius: 5px;
+
+}
+
+.blog-up {
+    text-decoration: none;
+    border: 0;
+    background-color: whitesmoke;
+    padding: 20px 70px;
+    border-radius: 5px;
+
+}
+
+
+.flag-pic {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 20px;
+    margin-top: 33px;
+}
+
+.flag-display {
+    width: 312px;
+    height: 240px;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/*-------------------
+ tablet version
+------------------- */
+@media screen and (min-width: 577px) and (max-width:992px) {
+
+    .container {
+        width: 50%;
+        padding-bottom: 20px;
+    }
+
+    .all-group {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    .players {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 20px;
+        margin-top: 42px;
+    }
+
+    .watch {
+        padding: 10px 20px;
+    }
+
+    .marcelo-tittle {
+        font-size: 2vw;
+    }
+
+    .footer {
+        width: 100%;
+    }
+
+    .view-all {
+        visibility: visible;
+        text-align: center;
+
+
+    }
+
+    .view-all button {
+        font-weight: 700;
+        color: whitesmoke;
+        background-color: orangered;
+        padding: 15px 27px;
+        border: 0;
+        border-radius: 6px;
+
+    }
+
+
+
+}
+
+/* -------------------
+--------Mobile version
+---------------------- */
+@media screen and (max-width:575px) {
+    .container {
+        height: 50% 50%;
+        display: grid;
+        margin: 0;
+        padding: 0;
+
+
+
+    }
+
+    .all-group {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+
+
+    }
+
+
+
+
+    .players {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        text-align: center;
+        width: 0%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .footer {
+        height: 450px;
+        width: 100%;
+
+    }
+
+    .footer-anchor {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 20px;
+        padding-top: 28px;
+    }
+
+    .marcelo-pic {
+        width: 50%;
+    }
+
+
+}
